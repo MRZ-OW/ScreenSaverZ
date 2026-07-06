@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+mntroot rw
+cp -f /mnt/us/extensions/ScreenSaverManager/backup_screensavers/*.png /usr/share/blanket/screensaver/
+mntroot ro
+lipc-set-prop com.lab126.powerd refreshScreenSaver 1
+echo "Original screensavers restored!"
+eips 30 30 "Backup restored"

@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "name": "Screensaver Manager",
+            "priority": 100,
+            "items": [
+                {
+                    "name": "1. Create Backup",
+                    "priority": 3,
+                    "action": "bin/install.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "2. Restore Backup",
+                    "priority": 2,
+                    "action": "bin/uninstall.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "3. Update screensavers",
+                    "priority": 1,
+                    "action": "bin/screensaver-update.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "4. Disable Ads",
+                    "priority": 5,
+                    "action": "bin/ss_fix_install.sh",
+                    "exitmenu": false
+                },
+                {
+                    "name": "5. Enable Ads",
+                    "priority": 6,
+                    "action": "bin/ss_fix_uninstall.sh",
+                    "exitmenu": false
+                },
+                {
+                    "name": "6. About the Author",
+                    "priority": 7,
+                    "items": [
+                        {
+                            "name": "Author",
+                            "priority": 4,
+                            "action": "bin/about.sh",
+                            "exitmenu": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

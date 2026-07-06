@@ -1,0 +1,7 @@
+# Kindle runs Linux — these must stay LF or they won't execute on-device.
+*.sh   text eol=lf
+*.conf text eol=lf
+*.lua  text eol=lf
+
+# The fbink binary must never be line-ending-converted.
+ScreenSaverManager/bin/fbink binary

@@ -1,0 +1,10 @@
+# Distribution artifact — the prep script lives at tools/process-images.ps1
+process-images.zip
+
+# Image-prep tool outputs
+tools/ProcessedImages/
+tools/PreviewImage.png
+
+# On-device logs written by the ad-fix scripts
+ScreenSaverManager/logs/
+*.log
