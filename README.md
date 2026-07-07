@@ -1,10 +1,12 @@
 # ScreenSaverZ
 
-English version of [madebyKir/ScreenSaverManager](https://github.com/madebyKir/ScreenSaverManager), a KUAL extension that swaps the stock and ad screensavers on a jailbroken Kindle for your own images. Everything's translated: the KUAL menu, the on-device messages, and the docs. There's also an image-prep tool bundled in so you don't have to wrestle with ImageMagick by hand.
-
-No KOReader needed. The screensavers show up everywhere the device sleeps.
+Custom screensavers on your Kindle, applied globally. Drop in your own images and they show up everywhere the device sleeps. No KOReader, and the ad screensavers can go too.
 
 Heads up: this writes to system files on your Kindle. If it eats your data, bricks the thing, or voids your warranty, that's on you. Run Create Backup before you touch anything else.
+
+## About
+
+This is an English translation of [madebyKir/ScreenSaverManager](https://github.com/madebyKir/ScreenSaverManager), a KUAL extension originally written in Russian by @Shalom_Kir / @Made.by.Kir. @wellthatsnothing (also known as Life, on Discord) dug it up, translated it, and wrote the image-prep tool that ships with it. Everything's localized here: the KUAL menu, the on-device messages, and the docs, plus that tool so you don't have to wrestle with ImageMagick by hand.
 
 ## What you need
 
